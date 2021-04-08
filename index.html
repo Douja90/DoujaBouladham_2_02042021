@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://www.reservia.com/"/>
   <title>reservia</title>
-  <link rel="stylesheet" href="style/index.css">
-  <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
+  <link rel="stylesheet" href="css/index.css">
  </head>
 <body>
   <header class="header">
@@ -25,12 +26,39 @@
   <section id="filter-area">
       <!-- Section filtres -->
       <form class="searchForm">
-        <span class="searchicon">
-            <img src="images/map-marker-alt-solid.svg" alt="map-marker"> 
+        <span class="searchIcon">
+            <img src="images/markers/map-marker-alt-solid.svg" alt="map-marker"> 
         </span>
         <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
         <button class="searchFormSubmitinput"><span>Rechercher</span></button>
       </form>
+      <div class="filters">
+        <h2 class="filtersTitle">Filtres</h2>
+        <div class="filtersFilter">
+          <div class="filtersFilterWrapicon">
+            <img src="images/markers/money-bill-wave-solid.svg" alt="money-marker"> 
+          </div>
+          <span class="searchFiltersFilterTitle">Économique</span>
+        </div>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <img src="images/markers/child-solid.svg" alt="child-marker"> 
+          </div>
+          <span class="searchFiltersFilterTitle">Familial</span>
+        </div>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <img src="images/markers/heart-solid.svg" alt="heart-marker"> 
+          </div>
+          <span class="searchFiltersFilterTitle">Romantique</span>
+        </div>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <img src="images/markers/dog-solid.svg" alt="dog-marker"> 
+          </div>
+          <span class="searchFiltersFilterTitle">Animaux autorisés</span>
+        </div>
+      </div>
       
   </section>
 
@@ -57,8 +85,8 @@
 
 </main>
 
-<footer>
-
+<footer id="footer">
+  
 
 </footer>
    
