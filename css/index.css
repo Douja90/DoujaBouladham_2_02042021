@@ -2,6 +2,7 @@ body{
   margin: 0px;
   padding: 0px;
   font-family: "Raleway", sans-serif;
+  font-size: 13px;
 }
 *{
   box-sizing: border-box;
@@ -13,8 +14,11 @@ a {
 .header {
   display: flex;
   align-items: center;
+  margin: auto;
+  border-top: 0;
+  max-width: 1440px;
 }
-.header Img {
+.header img {
   grid-area: logo;
   padding: 0 2rem;
   height: 3rem;
@@ -24,6 +28,7 @@ a {
   align-items: center;
   grid-area: navbar;
   margin-left: auto; 
+  padding-top: 0;
 }
 .headerLink[data-active=true] {
   color: #0065FC;
@@ -50,7 +55,6 @@ a {
 }
 
 #main {
-  max-width: 1440px;
   margin: auto;
   padding: 0 2rem;
 }
@@ -68,10 +72,10 @@ a {
 }
 .searchIcon {
   background-color: #F2F2F2;
-    padding: 1rem 1.25rem;
-    border-radius: 1rem 0 0 1rem;
-    text-align: center;
-  }
+  padding: 1rem 1.25rem;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+}
 .searchIcon img{
  margin: auto;
  width: 20px;
@@ -198,7 +202,6 @@ a {
   background-color: #F2F2F2;
   border-radius: 1.5rem;
   padding: 2rem;
-
 }
 
 .hosting {
@@ -214,14 +217,13 @@ a {
   display: grid;
   column-gap: 2rem;
   row-gap: 2rem;
-  width: 70%;
-  height: 700px;
-  grid-template-columns: 120px 120px 120px;
+  width: 68%;
+  height: 650px;
   align-items: start;
-  justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
-
+ 
 }
+
 .hostingHeader {
   grid-column: 1/-1;
 }
@@ -236,6 +238,7 @@ a {
   transition-duration: 0.1s;
   cursor: pointer;
   height: 100%;
+  margin-top: -20px;
 }
 .hostingCard:hover {
   transform: scale(1.02);
@@ -246,9 +249,7 @@ a {
 .hostingImg {
   height: 7rem;
   object-fit: cover;
-  max-width: 100%;
   width: 100%;
-  max-height: 100%;
   border-radius: 1rem 1rem 0 0;
 }
 
@@ -276,8 +277,8 @@ a {
 .hostingPopular {
   display: flex;
   row-gap: 2rem;
-  height: 700px;
-  width: 350px;
+  height: 650px;
+  width: 30%;
   justify-content: space-between;
   flex-direction:column;
   
@@ -286,6 +287,7 @@ a {
   margin: 0;
   display: flex;
   justify-content: space-between;
+ 
 }
 .hostingPopularTitle img{
     margin: 0%;
@@ -297,11 +299,18 @@ a {
   align-items: stretch;
   height: 100%;
   overflow: auto;
+  
+}
+.hostingPopularCard{
+  margin: 0px;
+  height: 150px;
+  margin-top: -40;
 }
 
 .hostingPopularFigureImg {
   position: relative;
-  width: 33%;
+  width: 200px;
+  margin: 0;
   
 }
 .hostingPopularFigureImage {
@@ -399,9 +408,12 @@ a {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 332px){
  body{
    display: block;
+ }
+ .main{
+   width: 100%;
  }
 }
 

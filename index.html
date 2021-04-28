@@ -6,6 +6,8 @@
   <title>reservia</title>
   
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" media="(orientation:portrait)" href="css/phone.css">
+  <link rel="stylesheet"  href="css/tablette.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -13,7 +15,7 @@
     <header class="header">
         <img src="images/Reservia.svg" alt="Reservia">
       <nav class="headerLinks">
-        <ul> <a class="headerLink" href="#hosting" data-active="true" >Hébergement</a></ul>
+        <ul> <a class="headerLink" href="#hosting" data-active="true" >Hébergements</a></ul>
         <ul><a class="headerLink" href="#activity" data-active="false">Activités</a></ul>
         <ul><a id="headerSignup" href="#inscription">S'inscrire</a></ul>
       </nav>
@@ -65,10 +67,10 @@
           </div>
       </section>
       <!-- HOSTING -->
-<section class="hosting">
+<section class="hosting" id = "hosting">
     <div class="hostingMarseille">
       <header class="hostingHeader">
-        <h2 class="hostingTitle">Hébergement à Marseille</h2>
+        <h2 class="hostingTitle">Hébergements à Marseille</h2>
       </header>
       <article class="hostingCard">
         <a href="#">
@@ -206,7 +208,7 @@
     </div>
 
     <aside class="hostingPopular">
-      <h2 class="hostingPopularTitle">Les plus populaire <img src="images/icons/chart-line-solid.svg" alt="chart-marker" ></h2>
+      <h2 class="hostingPopularTitle">Les plus populaires <img src="images/icons/chart-line-solid.svg" alt="chart-marker" ></h2>
       <article class="hostingCard hostingPopularCard">
         <a class="hostingPopularFigure" href="#">
           <div class="hostingPopularFigureImg">
@@ -282,13 +284,13 @@
   <!-- HOSTING -->
 
   <!-- ACTIVITY -->
-  <section class="activity" >
+  <section class="activity" id="activity" >
     <h2 class="activityTitle">Activités à Marseille</h2>
     <a href="#" class="activityCard activityCard1">
       <div class="activityCardImg">
         <img 
           class="activityCardImage"
-          src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
+          src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
           alt="Un port de plaisance remplis de bateau en premier plan avec une ville dans le second plan" 
         >
       </div>
