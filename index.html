@@ -6,24 +6,24 @@
   <title>reservia</title>
   
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" media="(orientation:portrait)" href="css/phone.css">
+  <link rel="stylesheet"   href="css/phone.css">
   <link rel="stylesheet"  href="css/tablette.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <img src="images/Reservia.svg" alt="Reservia">
+        <img class="headerImg" src="images/Reservia.svg" alt="Reservia">
       <nav class="headerLinks">
-        <ul> <a class="headerLink" href="#hosting" data-active="true" >Hébergements</a></ul>
-        <ul><a class="headerLink" href="#activity" data-active="false">Activités</a></ul>
-        <ul><a id="headerSignup" href="#inscription">S'inscrire</a></ul>
+       <a class="headerLink" href="#hosting" data-active="true" >Hébergements</a>
+       <a class="headerLink" href="#activity" data-active="false">Activités</a>
+       <a id="headerSignup" href="#inscription">S'inscrire</a>
       </nav>
     </header>
     
     <main id="main">
       <section id="search">
-          <h2 class="searchTitle">Trouvez votre hébergement pour des vacances de rêve</h2>
+          <h3 class="searchTitle">Trouvez votre hébergement pour des vacances de rêve</h3>
           <p class="searchSubtitle">En plein centre de ville ou en pleine nature</p>
       </section>
       <section id="filter-area">
@@ -33,10 +33,11 @@
             </span>
             <input id="searchInput" type="search" placeholder="Marseille, France" size="1">
             <button class="searchInput"><span>Rechercher</span></button>
+            <button class="iconSearch"><img src="images/icons/search-solid.svg" alt="search-marker"></button> 
           </form>
           <div id="filters">
             <h2 id="filtersTitle">Filtres</h2>
-            <div class="filters">
+            <div class="searchFilters">
               <div class="filtersIcons">
                 <img src="images/icons/money-bill-wave-solid.svg" alt="money-marker"> 
               </div>
@@ -216,12 +217,11 @@
               class="hostingPopularFigureImage"
               src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
               alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
-            >
+            />
           </div>
           <div class="mostPopularHotel">
             <h3 class="hostingCardFigureTitle">Hôtel Le soleil du matin</h3>
             <p class="hostingPrice">Nuit à partir de <strong class="hostingNumberPrice">128€</strong></p>
-            <div class="popularHotel"></div>
             <div class="hostingIconGrade">
                 <img src="images/icons/star-solid.svg" alt="star-marker" >
                 <img src="images/icons/star-solid.svg" alt="star-marker" >
@@ -239,12 +239,11 @@
               class="hostingPopularFigureImage"
               src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
               alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
-            >
+            />
           </div>
           <div class="mostPopularHotel">
             <h3 class="hostingCardFigureTitle">Au coeur de l'eau Chambres d'hôtes</h3>
             <p class="hostingPrice">Nuit à partir de <strong class="hostingNumberPrice">71€</strong></p>
-            <div class="popularHotel"></div>
             <div class="hostingIconGrade">
                 <img src="images/icons/star-solid.svg" alt="star-marker" >
                 <img src="images/icons/star-solid.svg" alt="star-marker" >
@@ -262,12 +261,12 @@
               class="hostingPopularFigureImage"
               src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
               alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
-            >
+            />
           </div>
           <div class="mostPopularHotel">
             <h3 class="hostingCardFigureTitle">Hôtel Tout bleu et Blanc</h3>
             <p class="hostingPrice">Nuit à partir de <strong class="hostingNumberPrice">68€</strong></p>
-            <div class="popularHotel"></div>
+            
             <div class="hostingIconGrade">
                 <img src="images/icons/star-solid.svg" alt="star-marker" >
                 <img src="images/icons/star-solid.svg" alt="star-marker" >
@@ -354,14 +353,15 @@
 
 <!-- FOOTER -->
 <footer id="footer">
-    <div class="footer">
+    
+      <div class="footerInfo">
       <h3 class="footerTitle">A propos</h3>
       <a href="#" class="footerLink">Fonctionnement du site</a>
       <a href="#" class="footerLink">Conditions générales de vente</a>
       <a href="#" class="footerLink">Données et confidentialités</a>
     </div>
     <div class="footerInfo">
-      <h3 class="footerTitle">Nos hébergement</h3>
+      <h3 class="footerTitle">Nos hébergements</h3>
       <a href="#" class="footerLink">Charte qualité</a>
       <a href="#" class="footerLink">Soumettre votre hotel</a>
     </div>
