@@ -80,9 +80,6 @@ a {
   text-align: center;
 }
 .blackIcon{
-  display: none;
-}
-.blueIcon{
  margin: auto;
  width: 20px;
  height: 20px;
@@ -196,7 +193,6 @@ a {
 }
 .infoText {
   margin: 0;
-  padding: auto;
   font-size: 1rem;
 }
 .iconSearch{
@@ -219,13 +215,12 @@ a {
 }
 .hostingMarseille {
   display: grid;
-  column-gap: 2.5rem;
-  row-gap: 3rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
   width: 70%;
   height: 630px;
   align-items: start;
   grid-template-columns: repeat(3, 1fr);
- 
 }
 .hostingHeader {
   grid-column: 1/-1;
@@ -237,14 +232,12 @@ a {
 }
 .hostingCard {
   background-color: white;
-  padding: 0.375rem;
+  padding: 0.29rem;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
   transition-duration: 0.1s;
   cursor: pointer;
-  height: 210px;
-  margin-top: -20px;
-  
+  height: 210px; 
 }
 .hostingCard:hover {
   transform: scale(1.02);
@@ -265,7 +258,6 @@ a {
  }
 .hostingCardFigureTitle {
   margin: 0.25rem 0.75rem 0 0.75rem;
-  font-size: 0.9rem;
 }
 .hostingPrice {
   margin: 0.25rem 0.75rem 0.25rem 0.75rem;
@@ -290,7 +282,7 @@ a {
   margin: 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 1.4rem;
   font-weight: bold;
 }
