@@ -51,6 +51,7 @@ a {
   padding: 2rem;
   color: #0065FC;
   font-weight: bold;
+ 
 }
 
 #main {
@@ -60,7 +61,6 @@ a {
 .searchTitle {
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
-
 }
 .searchSubtitle {
   margin-top: 0;
@@ -348,6 +348,7 @@ a {
   grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
 }
 .activityTitle {
+  grid-column: 1/-1;
   font-size: 1.5rem;
   font-weight: bold;
 }

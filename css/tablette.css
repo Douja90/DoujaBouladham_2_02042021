@@ -1,5 +1,4 @@
 @media screen and (min-width : 736px) and (max-width : 1024px) {
-   
     .header {
         width: 100%;
       }
@@ -7,13 +6,11 @@
         display: flex;
         flex-direction: row;
       }
-      
       .headerLink {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-end;
       }
-     
       #main{
         width: 100%;
     }
@@ -57,14 +54,19 @@
         height: 30px;
         text-align: center;
         padding-top: 6px; 
-        }
+    }
     .filtersIcons img{
       padding-bottom: 2px; 
       height: 20px;
       width: 20px;
-  }
+    }
+     #main{
+      margin: 10px;
+      padding:10px ;
+    }
     .hosting {
       width: 100%; 
+
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -72,9 +74,13 @@
       align-items: center; 
     }
     .hostingMarseille{
-        height: 100%;
-        width: 100%;
-        margin-bottom: 10px;
+      height: 100%;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .hostingCardFigureTitle {
+        font-size: 0.9rem; 
+        font-weight: bold;
     }
     .hostingPopular {
       display: flex;
@@ -87,4 +93,18 @@
       width: 100%;
       display: flex;
     }
+    .activity{
+      margin: 10px;
+      padding: 10px;
+    }
+    .activityCard{
+        margin: -10px;
+    }
+    .activityTitle {
+     padding-bottom: 20px;
+    }
+    #footer{
+      width: 100%;
+      margin: 0;   
+     }
     }
