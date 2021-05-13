@@ -1,24 +1,25 @@
 @media screen and  ( max-width:736px) {
    
     .header {
-        margin: 5px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-bottom: 20px;
-        width: 100%;   
+        width: 100%;  
     }
       .headerImg  {
         order: -1;
-        flex: 50%;
-        margin-left: -50px;
-        padding-left: 0%;
+        margin-left: 0%;
+      }
+      .header img {
+        height: 40px;
+        padding-bottom: 0;
       }
       #headerSignup {
         order: 1; 
-        flex: 50%;
-        margin-right: -80px;
-        padding-right: 0%;
+        position: absolute;
+        top: 0px; right: 30px; 
+        margin: 0;
+        padding-top: 10px;
      }
       .headerLinks{ 
         order: 2;
@@ -51,12 +52,15 @@
       .searchTitle{
          font-size: 1.5rem;
          font-weight: bold;
+         /* padding:  15px 0 15px 0; */
+         padding-top: 0;
       }
       .searchForm {
         display: inline-flex;
         max-width: 100%;
         overflow: auto; 
-        height: 50px; 
+        height: 55px; 
+        margin-top: 15px;
       } 
    
       #searchInput {
@@ -125,6 +129,7 @@
         width: 100%;
         margin-bottom: 10px;
         justify-content: space-between;
+        border-radius: 0 !important;
       }
       .hostingPopularTitle{
         margin-bottom: 20px;
@@ -148,6 +153,7 @@
         padding-left: 10px;
       }
       .activityCard{
+        box-shadow: 0 0 5px #0000002e;
         height: 180px;
         margin: 5px;
       }
