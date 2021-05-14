@@ -115,6 +115,7 @@
       }
       .hostingTitle {
         width: 100%;
+        padding-top: 10px;
       }
       .hostingCard{
         display: flex;
