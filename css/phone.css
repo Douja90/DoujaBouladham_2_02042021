@@ -1,5 +1,4 @@
 @media screen and  ( max-width:736px) {
-   
     .header {
         display: flex;
         flex-wrap: wrap;
@@ -8,7 +7,8 @@
     }
       .headerImg  {
         order: -1;
-        margin-left: 0%;
+        margin-left: -2%;
+        margin-top: 5px;
       }
       .header img {
         height: 40px;
@@ -17,7 +17,7 @@
       #headerSignup {
         order: 1; 
         position: absolute;
-        top: 0px; right: 30px; 
+        top: 5px; right: 10px; 
         margin: 0;
         padding-top: 10px;
      }
@@ -46,13 +46,12 @@
         padding: 10px;
       }
       .searchForm {
-        height: 50px;
         width: 100%; 
       }
       .searchTitle{
-         font-size: 1.5rem;
-         font-weight: bold;
+         font-size: 1.47rem;
          padding-top: 0;
+         margin-top: 15px;
       }
       .searchForm {
         display: inline-flex;
@@ -63,8 +62,7 @@
       } 
    
       #searchInput {
-        padding: 0 5px;
-        width: 180px; 
+        width: 240px; 
         border: 1px solid  #F2F2F2 ;
       }
       .searchInput {
@@ -86,13 +84,15 @@
       }
       #filtersTitle {
         width: 100%;
-        font-size: 1.2rem;
-        font-weight: bold;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
       }
       .searchFilters {
         display: flex;
         flex-wrap: wrap;  
-        margin-right: 1rem;
+        margin-right: 5px;
+        margin-bottom: 0.5rem;
+        margin-left: 5px;
       }
       .filtersIcons img{
         padding-bottom: 2px; 
@@ -119,6 +119,13 @@
       }
       .hostingCard{
         display: flex;
+        height: 200px;
+      }
+      .hostingPrice{
+        padding-bottom: 0;
+      }
+      .hostingCardFigure{
+        padding-bottom: 0;
       }
       .hostingViewmore{
        padding: 5px;
@@ -126,20 +133,17 @@
       .hostingPopular {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 0;
-       
-        padding: 20px;
-        border-radius: 0 !important;
+        width:auto;
+        padding: 1rem;
+        border-radius: 0;
+        justify-content: space-evenly;
       }
       .hostingPopularTitle{
-        margin-bottom: 20px;
-        padding-left: 5px;
         width: 100%;
       }
       .hostingPopularCard{
         display: flex;
-        margin-bottom: 10px;
+        height: 160px;
       }
       .activity{
         display: flex;
@@ -157,25 +161,23 @@
         margin: 5px;
       }
        #footer{
-       margin: 0%;   
+       margin: 0%;
+       padding-top: 10px;   
        display: flex;
        width: 100%;
        flex-direction: column;
        }
-      
       .footerInfo {
         width: 100%;
+        margin-bottom: 15px;
+        padding-bottom: 0;
       }
-      .footerInfo:first-child {
-        margin-top: 0;
-      }
-      .footerInfo:last-child {
-        margin-bottom: 0;
-      }
+    
       .footerTitle {
         font-size: 1.1rem;
         font-weight: bold;
-        margin-top: 10px;
+        margin-top: 0;
+        padding-top: 0;
       }
     }
    

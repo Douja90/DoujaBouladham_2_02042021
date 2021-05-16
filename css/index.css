@@ -1,6 +1,6 @@
 body{
-  margin: 0px;
-  padding: 0px;
+  margin: auto;
+  padding: 0;
   font-family: "Raleway", sans-serif;
 }
 *{
@@ -205,7 +205,6 @@ a {
   border-radius: 1.5rem;
   padding: 2rem;
 }
-
 .hosting {
   display: flex;
   flex-direction: row;
@@ -285,6 +284,7 @@ a {
   width: 28%;
   justify-content: space-between;
   flex-direction:column;
+  margin: auto;
 }
 .hostingPopularTitle {
   margin: 0;
@@ -319,7 +319,6 @@ a {
 }
 .hostingPopularCard{
   display: flex;
-  margin: 0px;
   height: 150px;
   width: auto;
   margin-bottom: 5px;
