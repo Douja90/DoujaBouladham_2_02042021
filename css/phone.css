@@ -148,6 +148,7 @@
       .activity{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         width: 100%;
         justify-content: space-between;
         margin-top: -10px;
@@ -156,10 +157,34 @@
         padding-left: 10px;
       }
       .activityCard{
+        display: flex;
         box-shadow: 0 0 5px #0000002e;
-        height: 180px;
         margin: 5px;
       }
+      .activityCard1 {
+       order: 0;
+       height: 180px;
+       }
+     .activityCard2 {
+       order: 1;
+       height: 180px;
+       }
+     .activityCard3 {
+       order: 4;
+       height: 180px;
+       }
+     .activityCard4 {
+       order: 3;
+       height: 180px;
+       }
+     .activityCard5 {
+       order: 2;
+       height: 180px;
+       }
+     .activityCard6 {
+       order: 5;
+       height: 180px;
+       }
        #footer{
        margin: 0%;
        padding-top: 10px;   
